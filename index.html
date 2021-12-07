@@ -1,13 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/bundle.css">
 </head>
+
 <body>
-    sdas
+
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <nav class="header__menu">
+                <ul>
+                    <li class="active"><a href="#">Головна</a></li>
+                    <li><a href="#">Номери</a></li>
+                    <li><a href="#">Ресторан</a></li>
+                    <li><a href="#">SPA</a></li>
+                    <li class="subitem">
+                        <a href="#">Інше</a>
+                        <ul>
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Lorem ipsum</a></li>
+                            <li><a href="#">Lorem ipsum</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header__contblock">
+                <div class="header__language">
+                    <span>UA</span>
+                    <ul>
+                        <li><a href="#">Ru</a></li>
+                        <li><a href="#">En</a></li>
+                    </ul>
+                </div>
+                <div class="header__tel">
+                    <a href="tel:"><img src="img/svg/phone-call.svg" alt="phone"></a>
+                </div>
+                <a href="#" class="header__booking">Забронювати</a>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="mainslider">
+                <div class="mainslider__textboxwrap">
+                    <div class="container">
+                        <div class="mainslider__textbox">
+                            <h1>TWINS Hotel</h1>
+                            <div class="descr">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi
+                                </p>
+                            </div>
+                            <img class="mainslider__textbox-img" src="img/svg/figure1.svg" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/mainslide.jpg" alt="slide">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mainslide.jpg" alt="slide">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mainslide.jpg" alt="slide">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mainslide.jpg" alt="slide">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/mainslide.jpg" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="events">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7">
+                            <h3>Акції та події</h3>
+                        </div>
+                        <div class="col-xl-5 d-flex justify-content-end align-items-start">
+                            <a href="#" class="sect-morelionk">Показати більше</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="service_flipbox">
+                                <div class="flipbox_font">
+                                    <div class="first-img">
+                                        <img src="img/event1.jpg" alt="event">
+                                    </div>
+                                </div>
+                                <div class="flipbox_back">
+                                    <div class="eventwrapp-text">
+                                        <p class="date">22.10.2022</p>
+                                        <h6>Подія</h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="service_flipbox">
+                                <div class="flipbox_font">
+                                    <div class="first-img">
+                                        <img src="img/event2.jpg" alt="event">
+                                    </div>
+                                </div>
+                                <div class="flipbox_back">
+                                    <div class="eventwrapp-text">
+                                        <p class="date">22.10.2022</p>
+                                        <h6>Подія</h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="service_flipbox">
+                                <div class="flipbox_font">
+                                    <div class="first-img">
+                                        <img src="img/event2.jpg" alt="event">
+                                    </div>
+                                </div>
+                                <div class="flipbox_back">
+                                    <div class="eventwrapp-text">
+                                        <p class="date">22.10.2022</p>
+                                        <h6>Подія</h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7">
+                            <h3>Популярне</h3>
+                        </div>
+                        <div class="col-xl-5 d-flex justify-content-end align-items-start">
+                            <a href="#" class="sect-morelionk">Показати більше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-sliderwrap">
+                    <div class="swiper mySwiper-pop">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="popbox">
+                                    <div class="popbox-front">
+                                        <img src="img/pop1.jpg" alt="event">
+                                    </div>
+                                    <div class="popbox-back">
+                                        <h6>
+                                            Мансардний номер
+                                            від 1300₴/день
+                                        </h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </main>
+
+        <footer class="footer">1</footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
 </body>
+
 </html>
