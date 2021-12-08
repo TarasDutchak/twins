@@ -68,7 +68,7 @@ header.header {
 
                     &>a {
                         &:after {
-                            content: "\e900";
+                            content: "\e902";
                             font-family: 'icomoon' !important;
                             speak: never;
                             font-style: normal;
@@ -157,7 +157,7 @@ header.header {
         }
 
         &::after {
-            content: "";
+            content: "\e902";
             font-family: "icomoon" !important;
             speak: never;
             font-style: normal;

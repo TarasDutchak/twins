@@ -8,6 +8,7 @@
     <title>main</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/bundle.css">
 </head>
 
@@ -45,9 +46,9 @@
                     </ul>
                 </div>
                 <div class="header__tel">
-                    <a href="tel:"><img src="img/svg/phone-call.svg" alt="phone"></a>
+                    <a href="tel:" class="pulse-el"><img src="img/svg/phone-call.svg" alt="phone"></a>
                 </div>
-                <a href="#" class="header__booking">Забронювати</a>
+                <a href="#" class="header__booking pulse-el">Забронювати</a>
             </div>
         </header>
 
@@ -195,6 +196,33 @@
                                 <div class="popbox">
                                     <div class="popbox-front">
                                         <img src="img/pop1.jpg" alt="event">
+                                        <p class="popbox-front__title">
+                                            Люкс<br> від 1300₴/день
+                                        </p>
+                                    </div>
+                                    <div class="popbox-back">
+                                        <h6>
+                                            Люкс<br> від 1300₴/день
+                                        </h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Більше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popbox">
+                                    <div class="popbox-front">
+                                        <img src="img/pop2.jpg" alt="event">
+                                        <p class="popbox-front__title">
+                                            Мансардний номер
+                                            від 1300₴/день
+                                        </p>
                                     </div>
                                     <div class="popbox-back">
                                         <h6>
@@ -208,25 +236,318 @@
                                                 veniam, quis nostrud exercitation
                                             </p>
                                         </div>
-                                        <a href="#" class="more"></a>
+                                        <a href="#" class="more">Більше</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">Slide 2</div>
-                            <div class="swiper-slide">Slide 3</div>
-                            <div class="swiper-slide">Slide 4</div>
-                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">
+                                <div class="popbox">
+                                    <div class="popbox-front">
+                                        <img src="img/pop3.jpg" alt="event">
+                                        <p class="popbox-front__title">
+                                            Напівлюкс<br>
+                                            від 1300₴/день
+                                        </p>
+                                    </div>
+                                    <div class="popbox-back">
+                                        <h6>
+                                            Напівлюкс<br>
+                                            від 1300₴/день
+                                        </h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Більше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popbox">
+                                    <div class="popbox-front">
+                                        <img src="img/pop1.jpg" alt="event">
+                                        <p class="popbox-front__title">
+                                            Покращений напівлюкс
+                                            від 1300₴/день
+                                        </p>
+                                    </div>
+                                    <div class="popbox-back">
+                                        <h6>
+                                            Покращений напівлюкс
+                                            від 1300₴/день
+                                        </h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Більше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popbox">
+                                    <div class="popbox-front">
+                                        <img src="img/pop1.jpg" alt="event">
+                                        <p class="popbox-front__title">
+                                            Люкс<br> від 1300₴/день
+                                        </p>
+                                    </div>
+                                    <div class="popbox-back">
+                                        <h6>
+                                            Люкс<br> від 1300₴/день
+                                        </h6>
+                                        <div class="descr">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation
+                                            </p>
+                                        </div>
+                                        <a href="#" class="more">Більше</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
 
+            <div class="aboutus">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <div class="aboutus__img">
+                                <img src="img/about.jpg" alt="About us">
+                            </div>
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="aboutus__info">
+                                <p class="subtitle">Про нас</p>
+                                <h3>Twins Hotel</h3>
+                                <div class="descr">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="services">
+                <div class="container">
+                    <h3>Послуги</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="services-block">
+                                <img src="img/svg/figure3.svg" alt="Ресторан">
+                                <p class="title">
+                                    Ресторан
+                                </p>
+                                <div class="descr">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="services-block">
+                                <img src="img/svg/figure3.svg" alt="SPA-зона">
+                                <p class="title">
+                                    SPA-зона
+                                </p>
+                                <div class="descr">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="services-block">
+                                <img src="img/svg/figure3.svg" alt="Рум-Сервіс">
+                                <p class="title">
+                                    Рум-Сервіс
+                                </p>
+                                <div class="descr">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="container">
+                    <h3>Галерея</h3>
+                </div>
+                <div class="gallery-wrapper">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <a href="img/gallery1.jpg" data-fancybox="gallery" tabindex="0">
+                                <div class="gallpicbox1 gallerybox">
+                                    <img src="img/gallery1.jpg" alt="img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a href="img/gallery2.jpg" data-fancybox="gallery" tabindex="0">
+                                        <div class="gallpicbox2 gallerybox">
+                                            <img src="img/gallery2.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <a href="img/gallery3.jpg" data-fancybox="gallery" tabindex="0">
+                                        <div class="gallpicbox2 gallerybox">
+                                            <img src="img/gallery3.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="img/gallery4.jpg" data-fancybox="gallery" tabindex="0">
+                                <div class="gallpicbox2 gallerybox">
+                                    <img src="img/gallery4.jpg" alt="img">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-hideimgs">
+                        <a href="img/gallery1.jpg" data-fancybox="gallery" tabindex="0">
+                            <div class="gallpicbox1">
+                                <img src="img/gallery1.jpg" alt="img">
+                            </div>
+                        </a>
+                        <a href="img/gallery1.jpg" data-fancybox="gallery" tabindex="0">
+                            <div class="gallpicbox1">
+                                <img src="img/gallery1.jpg" alt="img">
+                            </div>
+                        </a>
+                        <a href="img/gallery1.jpg" data-fancybox="gallery" tabindex="0">
+                            <div class="gallpicbox1">
+                                <img src="img/gallery1.jpg" alt="img">
+                            </div>
+                        </a>
+                        <a href="img/gallery1.jpg" data-fancybox="gallery" tabindex="0">
+                            <div class="gallpicbox1">
+                                <img src="img/gallery1.jpg" alt="img">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brandsbox">
+                <div class="container">
+                    <div class="brandsbox-wrapper">
+                        <img src="img/svg/brand1.svg" alt="brand">
+                        <img src="img/svg/brand2.svg" alt="brand">
+                        <img src="img/svg/brand1.svg" alt="brand">
+                        <img src="img/svg/brand2.svg" alt="brand">
+                    </div>
+                </div>
+            </div>
+
+            <div class="download-line">
+                <div class="container dwnlwrap">
+                    <p class="title">Правила проживання</p>
+                    <a href="#" class="pulse-el-white">Завантажити</a>
+                </div>
+            </div>
 
         </main>
 
-        <footer class="footer">1</footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/logo-footer.png" alt="logo"></a>
+                        </div>
+                        <div class="footer__socials">
+                            <ul>
+                                <li><a href="#" target="_blank" class="icon-fb"></a></li>
+                                <li><a href="#" target="_blank" class="icon-instagram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="footer-contacts">
+                            <div class="footer-contact">
+                                <p class="title">АДРЕСА</p>
+                                <p class="descr">м. Яремче
+                                    с. Поляниця
+                                    урочище. Щівки, 7
+                                </p>
+                            </div>
+                            <div class="footer-contact">
+                                <p class="title">Відділ бронювання: </p>
+                                <a href="tel:+380667778777" class="descr">+38 066 777 8777</a>
+                            </div>
+                            <div class="footer-contact">
+                                <p class="title">СПА:</p>
+                                <a href="tel:+380968018252" class="descr">+38 096 801 8252</a>
+                            </div>
+                            <div class="footer-contact">
+                                <p class="title">Рецепція:</p>
+                                <a href="tel:+380958598040" class="descr">+38 095 859 8040 </a><br>
+                                <a href="mailto:info@karpat-ski.com" class="descr">info@karpat-ski.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="footer__subscribe">
+                            <form action="#">
+                                <p class="title">Підпишись на розсилку</p>
+                                <p class="subtitle">
+                                    Будьте в курсі усіх подій та новин,
+                                    підпишіться на нашу розсилку.
+                                </p>
+                                <input type="email" placeholder="Емеіл">
+                                <input type="submit" value="Підписатись" class="footersubmbtn pulse-el">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottomline">
+                <p>© 2022 Twins Hotel. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
 
 
@@ -241,6 +562,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 

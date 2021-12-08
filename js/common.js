@@ -14,7 +14,9 @@ $(document).ready(function () {
     // main slider
     var swiper = new Swiper(".mySwiper", {
         direction: "vertical",
+        loop: true,
         speed: 900,
+        allowTouchMove: false,
         autoplay: {
             delay: 7000,
         },
@@ -29,9 +31,10 @@ $(document).ready(function () {
     var swiper1 = new Swiper(".mySwiper-pop", {
         slidesPerView: 4,
         spaceBetween: 30,
-        // autoplay: {
-        //     delay: 7000,
-        // },
+        speed: 700,
+        autoplay: {
+            delay: 7000,
+        },
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
