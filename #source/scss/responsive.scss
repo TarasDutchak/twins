@@ -135,6 +135,11 @@
 
 
 
+
+
+
+
+
     .eventwrapp-text .date {
         margin-bottom: 15px;
     }
@@ -154,7 +159,7 @@
     }
 
     .popular {
-        padding: 80px;
+        padding: 80px 0;
     }
 
     .mainslider .mainslider__textbox h1 {
@@ -186,5 +191,666 @@
 
 
 
+
+}
+
+@media(max-width:1400.8px) {
+    header.header .header__menu>ul>li {
+        margin-right: 30px;
+    }
+
+    header.header .header__logo {
+        max-width: 120px;
+        -ms-flex: 0 0 120px;
+        flex: 0 0 120px;
+    }
+
+    header.header .header__contblock {
+        max-width: 280px;
+        -ms-flex: 0 0 280px;
+        flex: 0 0 280px;
+    }
+
+    .header__booking {
+        height: 38px;
+        max-width: 150px;
+    }
+
+    .header__tel a {
+        width: 38px;
+        height: 38px;
+    }
+
+    header.header .header__menu {
+        max-width: calc(100% - 400px);
+        -ms-flex: 0 0 calc(100% - 400px);
+        flex: 0 0 calc(100% - 400px);
+    }
+
+    .popbox .popbox-front {
+        height: 400px;
+    }
+
+    .popbox .popbox-front__title {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .popbox .popbox-back h6 {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .popbox .popbox-back .more {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .popbox .popbox-back .more:after {
+        margin-left: 30px;
+    }
+
+    .popbox .popbox-back {
+        padding: 30px 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .popbox .popbox-back .more {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+    }
+
+
+}
+
+@media(max-width:1199.8px) {
+
+    header.header .header__menu>ul>li {
+        margin-right: 15px;
+    }
+
+    header.header .header__logo {
+        max-width: 100px;
+        -ms-flex: 0 0 100px;
+        flex: 0 0 100px;
+    }
+
+    header.header .header__menu>ul>li>a {
+        font-weight: 600;
+    }
+
+    header.header {
+        padding: 5px 40px;
+    }
+
+    header.header .header__menu {
+        max-width: calc(100% - 380px);
+        -ms-flex: 0 0 calc(100% - 380px);
+        flex: 0 0 calc(100% - 380px);
+    }
+
+    .aboutus .aboutus__img:after {
+        width: 100px;
+    }
+
+    .aboutus {
+        padding: 130px 0 60px;
+    }
+
+    .aboutus .aboutus__info {
+        padding-left: 0;
+    }
+
+    .footer__subscribe form .subtitle {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .footer__subscribe form .footersubmbtn {
+        min-height: 48px;
+        width: 185px;
+    }
+
+    .footer-contact .title,
+    .footer-contact .descr {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer__subscribe form .title {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .footer__bottomline p,
+    .header__language>span,
+    .header__language ul a,
+    header.header .header__menu>ul>li>a,
+    .header__booking {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:1024.8px) {
+    .header__menu {
+        display: none;
+    }
+
+    header.header {
+        justify-content: space-between;
+    }
+
+    .burger-icon {
+        display: inline-block;
+    }
+
+    header.header .header__contblock {
+        max-width: 300px;
+        -ms-flex: 0 0 300px;
+        flex: 0 0 300px;
+    }
+
+    .header__contblock .header__language {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:991.8px) {
+    .mainslider .mainslider__textbox h1 {
+        font-size: 3.4rem;
+    }
+
+    .mainslider .mainslider__textbox {
+        max-width: calc(100% - 100px);
+    }
+
+    .mainslider .swiper-pagination-vertical.swiper-pagination-bullets,
+    .mainslider .swiper-vertical>.swiper-pagination-bullets {
+        right: 40px;
+    }
+
+    .mainslider .mainslider__textbox {
+        padding: 40px 0 90px 40px;
+    }
+
+    .events h3,
+    .gallery h3,
+    .popular h3 {
+        margin-bottom: 30px;
+    }
+
+    .sect-morelionk:after {
+        margin-left: 15px;
+    }
+
+    h3 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .events {
+        padding: 70px 0 80px;
+    }
+
+    .service_flipbox .flipbox_back,
+    .service_flipbox .flipbox_font {
+        height: 300px;
+
+        .first-img {
+            padding-bottom: 0;
+            height: 100%;
+        }
+    }
+
+    .service_flipbox .flipbox_back {
+        border: 2px solid #E1AD66;
+    }
+
+    .eventwrapp-text {
+        padding: 20px 20px 30px 20px;
+    }
+
+    .eventwrapp-text .date {
+        margin-bottom: 10px;
+        font-size: 0.875rem;
+        line-height: 1.2rem;
+    }
+
+    .eventwrapp-text h6 {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .eventwrapp-text .descr {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+    }
+
+    .eventwrapp-text .more {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+        left: 20px;
+        bottom: 15px;
+    }
+
+    .mySwiper-pop {
+        padding-bottom: 50px;
+    }
+
+    .aboutus .aboutus__img:after {
+        width: 80px;
+        height: 130px;
+    }
+
+    .aboutus {
+        padding: 100px 0 60px;
+    }
+
+    .services {
+        padding: 40px 0 70px;
+    }
+
+    .services-block .title {
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .services .row .col-md-4:nth-child(2) .services-block,
+    .services .row .col-md-4:nth-child(3) .services-block {
+        margin-left: 0;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+    }
+
+    .aboutus .aboutus__info h3 {
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .aboutus .aboutus__info .subtitle {
+        margin-bottom: 10px;
+    }
+
+    .aboutus .aboutus__img {
+        padding-right: 0;
+    }
+
+    .gallery {
+        padding-top: 70px;
+    }
+
+    .gallery .gallery-wrapper .gallerybox {
+        border: 2px solid transparent;
+    }
+
+    .gallpicbox1 {
+        height: 500px;
+    }
+
+    .gallpicbox2 {
+        height: 235px;
+    }
+
+    .brandsbox {
+        padding: 70px 0;
+    }
+
+    .popular-sliderwrap,
+    .gallery .gallery-wrapper {
+        padding: 0 40px;
+    }
+
+    .dwnlwrap .title {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .download-line {
+        height: 90px;
+    }
+
+    .footer__subscribe {
+        padding-left: 0;
+    }
+
+    .footer__subscribe form .title {
+        line-height: 2rem;
+    }
+
+
+
+
+
+
+    .popular {
+        padding: 70px 0;
+    }
+
+}
+
+@media(max-width:767.8px) {
+    html {
+        font-size: 15px;
+    }
+
+    .mainslider .mainslider__textbox h1 {
+        font-size: 3rem;
+        line-height: normal;
+    }
+
+    .mainslider .mainslider__textbox {
+        border-left: 2px solid #E1AD66;
+        padding: 30px 0 80px 30px;
+    }
+
+    .mainslider .mainslider__textbox:before,
+    .mainslider .mainslider__textbox:after {
+        height: 2px;
+    }
+
+    header.header .header__contblock {
+        max-width: 270px;
+        -ms-flex: 0 0 270px;
+        flex: 0 0 270px;
+    }
+
+    .service_flipbox .flipbox_back,
+    .service_flipbox .flipbox_font {
+        height: 240px;
+        min-height: initial;
+    }
+
+    .popular {
+        padding: 60px 0 40px;
+    }
+
+    .aboutus__img {
+        height: 300px;
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+    }
+
+    .aboutus .aboutus__info .subtitle {
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+
+    .aboutus .aboutus__info h3 {
+        line-height: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .services {
+        padding: 20px 0 60px;
+    }
+
+    .services-block>img {
+        margin-bottom: 15px;
+    }
+
+    .services-block .title {
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .services-block .descr {
+        font-size: 0.875rem;
+        line-height: 1.45rem;
+    }
+
+    .gallery {
+        padding-top: 60px;
+    }
+
+    .gallpicbox1 {
+        height: 400px;
+    }
+
+    .gallpicbox2 {
+        height: 185px;
+    }
+
+    .footer__subscribe form .subtitle {
+        max-width: 100%;
+    }
+
+    footer.footer {
+        padding-top: 30px;
+    }
+
+    .footer-logo {
+        padding-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer__socials {
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    footer.footer .container {
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
+    .events {
+        padding: 60px 0;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+}
+
+@media(max-width:575.8px) {
+
+    header.header {
+        padding: 5px 15px;
+    }
+
+    .header__booking {
+        display: none;
+    }
+
+    header.header .header__contblock {
+        max-width: 100px;
+        -ms-flex: 0 0 100px;
+        flex: 0 0 100px;
+    }
+
+    header.header {
+        height: 70px;
+    }
+
+    .mainslider .mainslider__textbox h1 {
+        font-size: 2rem;
+    }
+
+    .mainslider .mainslider__textbox-img {
+        width: 60px;
+        bottom: -48px;
+    }
+
+    .mainslider .swiper-pagination-vertical.swiper-pagination-bullets,
+    .mainslider .swiper-vertical>.swiper-pagination-bullets {
+        right: 20px;
+    }
+
+    .mainslider .mainslider__textbox {
+        border-left: 2px solid #E1AD66;
+        padding: 25px 0 65px 20px;
+    }
+
+    .mainslider .mainslider__textbox:before {
+        width: 260px;
+    }
+
+    .mainslider .mainslider__textbox {
+        max-width: calc(100% - 50px);
+    }
+
+    .sect-morelionk {
+        margin-top: 0;
+    }
+
+
+
+    .sect-morelionk:after {
+        width: 10px;
+    }
+
+    .service_flipbox .flipbox_back,
+    .service_flipbox .flipbox_font {
+        height: 200px;
+    }
+
+    .service_flipbox {
+        margin-bottom: 15px;
+    }
+
+    .eventwrapp-text {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .eventwrapp-text .date {
+        line-height: normal;
+        margin-bottom: 7px;
+    }
+
+    .eventwrapp-text h6 {
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .eventwrapp-text .more {
+        left: 15px;
+        bottom: 10px;
+    }
+
+    .eventwrapp-text .descr p {
+        -webkit-line-clamp: 3;
+    }
+
+    .events {
+        padding-bottom: 40px;
+    }
+
+    .gallery .gallery-wrapper,
+    .popular-sliderwrap {
+        padding: 0 15px;
+    }
+
+    .services-block {
+        margin-bottom: 20px;
+    }
+
+    .services .col-sm-4:last-child .services-block {
+        margin-bottom: 0;
+    }
+
+    .gallery h3 {
+        margin-bottom: 20px;
+    }
+
+    .gallpicbox1 {
+        height: 260px;
+        margin-bottom: 30px;
+    }
+
+    .brandsbox-wrapper img {
+        max-width: 80px;
+        max-height: 50px
+    }
+
+    .brandsbox {
+        padding: 50px 0;
+    }
+
+    .dwnlwrap .title {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .footer__subscribe {
+        margin-top: 30px;
+    }
+
+    .footer__subscribe form .footersubmbtn {
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+    .events .sect-morelionk,
+    .popular .sect-morelionk {
+        margin-bottom: 20px;
+    }
+
+    .events h3,
+    .popular h3 {
+        margin-bottom: 10px;
+    }
 
 }

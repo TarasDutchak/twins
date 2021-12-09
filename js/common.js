@@ -29,8 +29,7 @@ $(document).ready(function () {
 
     // opular slider
     var swiper1 = new Swiper(".mySwiper-pop", {
-        slidesPerView: 4,
-        spaceBetween: 30,
+
         speed: 700,
         autoplay: {
             delay: 7000,
@@ -39,6 +38,27 @@ $(document).ready(function () {
             el: ".swiper-pagination",
             clickable: true,
         },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            // when window width is >= 480px
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            // when window width is >= 640px
+            900: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            1400: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            }
+        }
 
     });
 
