@@ -2,7 +2,6 @@ $(document).ready(function () {
     // header
     $('.subitem a').click(function (e) {
         e.preventDefault();
-        console.log('sdsdsd')
         $(this).next('ul').slideToggle();
 
     });
@@ -62,7 +61,14 @@ $(document).ready(function () {
 
     });
 
-
+    $('.burger-icon').click(function () {
+        $('.header__menu').addClass('show');
+        $('body').addClass('overhidd');
+    });
+    $('.closemenu').click(function () {
+        $('.header__menu').removeClass('show');
+        $('body').removeClass('overhidd');
+    });
 
 
 
