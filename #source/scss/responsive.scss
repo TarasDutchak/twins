@@ -129,6 +129,70 @@
         height: 60px;
     }
 
+    .rooms-section {
+        padding: 80px 0;
+    }
+
+    .fscreensmall .fscreensmall__textbox .title {
+        font-size: 2.6rem;
+        line-height: 4rem;
+    }
+
+    .fscreensmall {
+        min-height: 400px;
+    }
+
+    .fscreensmall .fscreensmall__textbox {
+        margin-top: 170px;
+    }
+
+    .roomcircleprice {
+        width: 110px;
+        height: 110px;
+    }
+
+    .roomcircleprice {
+        font-size: 1rem;
+
+        span {
+            font-size: 1.6rem;
+            line-height: normal;
+        }
+    }
+
+    .rominfo {
+        padding: 80px 0;
+    }
+
+    .fscreenbig__text .fscreenbig__cont h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .fscreenbig {
+        min-height: 580px;
+    }
+
+    .fscreenbig__text {
+        margin-top: 160px;
+    }
+
+    .service-slider .swiper-slide {
+        height: 500px;
+    }
+
+    .fscreenbig__text .fscreenbig__cont>img {
+        width: 80px;
+    }
+
+    .fscreenbig {
+        min-height: 510px;
+    }
+
+    .service-infosect .title {
+        margin-bottom: 25px;
+    }
+
 
 
 
@@ -166,7 +230,9 @@
         font-size: 4rem;
     }
 
-    h3 {
+    h3,
+    .rominfo .title,
+    .room-descriptionsect .title {
         font-size: 2.6rem;
         line-height: 4rem;
     }
@@ -332,12 +398,22 @@
         line-height: 1.2rem;
     }
 
+    .room-descriptionsect {
+        padding-left: 25px;
+    }
 
+    .fscreenbig__text .fscreenbig__cont h1 {
+        font-size: 3.6rem;
+        line-height: 4.6rem;
+    }
 
+    .service-infosect .descr {
+        margin-bottom: 40px;
+    }
 
-
-
-
+    .service-slider .swiper-slide {
+        height: 400px;
+    }
 
 
 
@@ -666,6 +742,42 @@
         line-height: 2rem;
     }
 
+    .roomcircleprice {
+        transform: none;
+        margin: -55px auto 0;
+        z-index: 2;
+        position: relative;
+    }
+
+    .room-content {
+        padding-top: 40px;
+    }
+
+    .room-descriptionsect {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .room-descriptionsect .subtitle {
+        margin-top: 15px;
+    }
+
+    .rominfo .title,
+    .room-descriptionsect .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .fscreenbig__text .fscreenbig__cont h1 {
+        font-size: 3rem;
+        line-height: 4.2rem;
+    }
+
+    .fscreenbig__text .fscreenbig__cont {
+        padding: 50px 0 90px 45px;
+    }
+
+
 
 
 
@@ -800,6 +912,46 @@
         margin-bottom: 15px;
     }
 
+    .roomfield {
+        height: auto;
+
+        .img-wrap {
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+    }
+
+    .roomfield .roomfield_info {
+        position: relative;
+    }
+
+    .roomfield .roomfield_info {
+        width: 100%;
+    }
+
+    .roomfield .roomfield_info-lists {
+        min-width: initial;
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .roomfield .roomfield_info {
+        padding: 20px;
+    }
+
+    .roomfield_info-box {
+        margin-bottom: 30px;
+    }
+
+    .service-slider .swiper-button-next {
+        right: 20px;
+    }
+
+    .service-slider .swiper-button-prev {
+        left: 20px;
+    }
+
 
 
 
@@ -872,8 +1024,6 @@
     .sect-morelionk {
         margin-top: 0;
     }
-
-
 
     .sect-morelionk:after {
         width: 10px;
@@ -971,6 +1121,148 @@
         height: 42px;
     }
 
+    .mainslider__textboxwrap .mainsliderbtn {
+        position: relative;
+        left: 0;
+        max-width: 240px;
+        padding: 3px 20px;
+        transform: none;
+        margin-top: 15px;
+    }
+
+    .roomfield .roomfield_info .roomfield_info-box .title {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .roomfield .roomfield_info .roomfield_info-box .price {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .roomfield .roomfield_info .roomfield_info-box .descr {
+        margin-bottom: 20px;
+    }
+
+    .roomfield .roomfield_info-lists .roomfield_info-list li {
+        padding-left: 17px;
+        padding-right: 10px;
+    }
+
+    .fscreensmall .fscreensmall__textbox .title span {
+        padding: 0 20px;
+
+        &:after,
+        &:before {
+            width: 30px;
+        }
+    }
+
+    .fscreensmall .fscreensmall__textbox .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .sliders-group {
+        padding-top: 0;
+    }
+
+    .sliders-group .mySwiper4 .swiper-slide {
+        height: 240px;
+    }
+
+    .sliders-group .mySwiper3 .swiper-slide {
+        height: 80px;
+    }
+
+    .rominfo .title,
+    .room-descriptionsect .title {
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+
+    .room-descriptionsect .title {
+        margin-bottom: 15px;
+    }
+
+    .room-descriptionsect .subtitle {
+        font-size: 1.4rem;
+        line-height: normal;
+    }
+
+    .rominfo {
+        padding: 60px 0;
+    }
+
+    .fscreenbig__text .fscreenbig__cont h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .fscreenbig__text .fscreenbig__cont:after {
+        height: 2px;
+        width: 260px;
+    }
+
+    .fscreenbig__text .fscreenbig__cont:before {
+        height: 2px;
+    }
+
+    .fscreenbig__text .fscreenbig__cont {
+        border-left: 2px solid #E1AD66;
+    }
+
+    .fscreenbig__text .fscreenbig__cont {
+        padding: 25px 0 65px 20px;
+    }
+
+    .fscreenbig__text .fscreenbig__cont>img {
+        width: 60px;
+    }
+
+    .fscreenbig {
+        min-height: 360px;
+    }
+
+    .fscreenbig__text {
+        margin-top: 130px;
+    }
+
+    .service-infosect {
+        padding: 60px 0;
+    }
+
+    .service-infosect .title {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 15px;
+
+        span {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .service-infosect .title span:after,
+    .service-infosect .title span:before {
+        width: 30px;
+    }
+
+    .service-slider .swiper-slide {
+        height: 300px;
+    }
+
+    .fscreenbig.spa .fscreenbig__text .fscreenbig__cont:after {
+        width: 155px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -988,7 +1280,11 @@
 
 }
 
-
+@media(max-width:360.8px) {
+    .roomfield .roomfield_info-lists {
+        flex-wrap: wrap;
+    }
+}
 
 
 

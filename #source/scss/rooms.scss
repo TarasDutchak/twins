@@ -1,0 +1,192 @@
+.mainslider__textboxwrap {
+    .mainsliderbtn {
+        @include yellow-btn;
+        position: absolute;
+        left: 240px;
+        bottom: 0;
+        transform: translateY(50%);
+    }
+
+}
+
+.rooms-section {
+    padding: 158px 0;
+}
+
+.roomfield {
+    height: 393px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .img-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .roomfield_info {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 351px;
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        backdrop-filter: blur(45px);
+        padding: 40px 38px 23px 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: .3s;
+        overflow: hidden;
+
+        .roomfield_info-box {
+            .title {
+                font-size: 1.5625rem;
+                line-height: 2.1875rem;
+                color: #272727;
+                margin-bottom: 8px;
+            }
+
+            .price {
+                font-weight: bold;
+                font-size: 1.5rem;
+                line-height: 1.625rem;
+                color: #000000;
+                margin-bottom: 28px;
+                transition: .3s;
+            }
+
+            .descr {
+                font-weight: bold;
+                font-size: 1rem;
+                line-height: 1.625rem;
+                color: #000000;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                max-width: 216px;
+                transition: .3s;
+                margin-bottom: 34px;
+            }
+        }
+
+
+        >a {
+            text-decoration: none;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: #000000;
+            transition: .3s;
+
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 12px;
+                height: 20px;
+                background: url(../img/svg/more-arrblack.svg) no-repeat center/100%;
+                margin-left: 21px;
+                vertical-align: middle;
+                margin-top: -2px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+            }
+
+            &:hover {
+                &:after {
+                    margin-left: 28px;
+                }
+            }
+        }
+    }
+
+    .roomfield_info-lists {
+        display: flex;
+        justify-content: space-between;
+        transform: translateX(525px);
+        transition: .5s;
+        min-width: 522px;
+
+        .roomfield_info-list {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            width: 261px;
+
+
+            li {
+                font-weight: bold;
+                font-size: 1rem;
+                line-height: 1.625rem;
+                color: #272727;
+                position: relative;
+                padding-left: 24px;
+
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: #E1AD66;
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media(min-width:767px) {
+    .roomfield {
+        &:hover {
+
+            .roomfield_info-lists {
+                transform: translateX(0);
+            }
+
+            .roomfield_info {
+                width: 600px;
+                background: #fff;
+                border: 4px solid #E1AD66;
+
+                .price {
+                    color: #E1AD66;
+                }
+
+                .descr {
+                    max-width: 100%;
+                }
+
+                >a {
+                    color: #E1AD66;
+
+                    &:after {
+                        background: url(../img/svg/arrow-more.svg) no-repeat center/100%;
+                    }
+                }
+            }
+
+            .roomfield_info-lists {
+                display: flex;
+            }
+
+
+
+
+
+
+
+        }
+    }
+}

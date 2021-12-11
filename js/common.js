@@ -70,6 +70,71 @@ $(document).ready(function () {
         $('body').removeClass('overhidd');
     });
 
+    // room sliders
+    var swiper3 = new Swiper(".mySwiper3", {
+        loop: true,
+        spaceBetween: 10,
+        // slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 3,
+            },
+            // when window width is >= 480px
+            480: {
+                slidesPerView: 4,
+            },
 
+
+        }
+
+    });
+    var swiper4 = new Swiper(".mySwiper4", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper3,
+        },
+    });
+
+
+
+    // service slider
+
+
+
+    var mySwiper5 = new Swiper(".swiper-wrapper-serv", {
+
+        centeredSlides: true,
+        roundLengths: true,
+        loop: true,
+        loopAdditionalSlides: 30,
+        allowTouchMove: true,
+        slideToClickedSlide: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+            },
+            // when window width is >= 480px
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 24,
+
+            },
+        }
+    });
 
 });
