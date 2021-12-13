@@ -137,4 +137,12 @@ $(document).ready(function () {
         }
     });
 
+    // mask
+    if ($('*').is('.telnum')) {
+        $('.telnum').inputmask({
+            "mask": "+ 99 /999/ 999-9999",
+            showMaskOnHover: false,
+            showMaskOnFocus: false,
+        });
+    }
 });
