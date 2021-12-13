@@ -516,7 +516,8 @@
         margin-top: 15px;
 
         ul {
-            display: block;
+            display: flex;
+            flex-wrap: wrap;
             position: relative;
             background: transparent;
             box-shadow: none;
@@ -527,7 +528,9 @@
             li {
                 display: inline-block;
                 vertical-align: middle;
-                margin-right: 10px;
+                // margin-right: 10px;
+                margin: 0;
+                width: 32%;
 
                 a {
                     font-size: 1.4rem;
@@ -687,7 +690,8 @@
         margin-bottom: 30px;
     }
 
-    .aboutus .aboutus__info h3 {
+    .aboutus .aboutus__info h3,
+    .aboutus .aboutus__info h2 {
         line-height: 3rem;
         margin-bottom: 1rem;
     }
@@ -843,7 +847,8 @@
         margin-bottom: 5px;
     }
 
-    .aboutus .aboutus__info h3 {
+    .aboutus .aboutus__info h3,
+    .aboutus .aboutus__info h2 {
         line-height: 2.5rem;
         margin-bottom: 10px;
     }
@@ -1257,9 +1262,14 @@
         width: 155px;
     }
 
+    .services-block {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
 
-
-
+    .services h3 {
+        text-align: center;
+    }
 
 
 
