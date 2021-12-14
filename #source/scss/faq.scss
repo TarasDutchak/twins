@@ -1,0 +1,77 @@
+.sendemailsect.sendemailsect_faq {
+    h3 {
+        font-size: 2.25rem;
+        line-height: 2.8125rem;
+
+        span {
+            color: #E1AD66;
+        }
+    }
+}
+
+.faq-content {
+    padding: 51px 0 54px;
+}
+
+.faq-qbox__header {
+    position: relative;
+
+    p {
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+        color: #272727;
+        padding-right: 95px;
+        cursor: pointer;
+    }
+}
+
+.faq-qbox {
+    margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.faq-qbox__body {
+    font-size: 1rem;
+    line-height: 162%;
+    color: #272727;
+    padding-right: 95px;
+    display: none;
+    margin-top: 15px;
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.faq-qbox__header {
+    .plus {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+.faq-qbox__header .plus {
+    svg {
+        rect {
+            transition: .3s;
+        }
+    }
+}
+
+
+.faq-qbox__header .plus.open {
+    svg {
+        rect {
+            fill: #000;
+            transition: .3s;
+        }
+    }
+}

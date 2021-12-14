@@ -145,4 +145,10 @@ $(document).ready(function () {
             showMaskOnFocus: false,
         });
     }
+    // faq
+
+    $('.faq-qbox__header').click(function () {
+        $(this).next('.faq-qbox__body').slideToggle();
+        $(this).find('.plus').toggleClass('open');
+    });
 });
