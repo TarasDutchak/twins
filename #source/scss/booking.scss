@@ -1,0 +1,16 @@
+.booking-content {
+    padding: 65px 0;
+
+    img {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    p {
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+}

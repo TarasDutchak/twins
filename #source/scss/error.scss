@@ -1,0 +1,44 @@
+.errorcontent {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 550px;
+
+    .errorcontent__bg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50%;
+        position: absolute;
+    }
+}
+
+.errorcontent__textbox {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+    h1 {
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: 9.375rem;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    .subtitle {
+        margin-bottom: 49px;
+        font-weight: bold;
+        font-size: 1.5625rem;
+        line-height: 149%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .errorcontent__link {
+        @include yellow-btn;
+    }
+}

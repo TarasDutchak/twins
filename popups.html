@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Popups</title>
     <link rel="apple-touch-icon-precomposed" href="favicon.svg" />
     <link rel="icon" href="favicon.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -76,79 +76,15 @@
         </header>
 
         <main class="main">
-            <div class="fscreenbig withdescr">
-                <img class="fscreenbig__bg" src="img/contact-bg.jpg" alt="restoran">
-                <div class="fscreenbig__text">
-                    <div class="container">
-                        <div class="fscreenbig__cont">
-                            <h1>Контакти</h1>
-                            <div class="descr">
-                                <p>
-                                    Ми завжди будемо раді вас бачити в Twins Hotel. Ми будемо намагатися щоб ваш
-                                    відпочинок був незабутній, і Ви запам’ятали його надовго!
-                                </p>
-                            </div>
-                            <img class="mainslider__textbox-img" src="img/svg/figure1.svg" alt="image">
-                        </div>
-                    </div>
+
+            <div class="container">
+                <div class="wraptest" style="padding:150px 0">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">Popup 1</a>
+                    <br><br>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Popup 2</a>
+
                 </div>
             </div>
-
-            <div class="contacts-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="map-wrapper">
-                                <img src="img/map.jpg" alt="map">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="contacts__info">
-                                <h2>АДРЕСА</h2>
-                                <p class="contslocation">
-                                    ділянка Щівки, Поляниця, Івано-Франківська область, 78593
-                                </p>
-                                <ul class="contsphones">
-                                    <li><a href="tel:+380968018252">+38 096 801 8252</a></li>
-                                    <li><a href="tel:+380968018252">+38 096 801 8252</a></li>
-                                    <li><a href="tel:+380968018252">+38 096 801 8252</a></li>
-                                </ul>
-                                <ul class="contsmails">
-                                    <li><a href="mailto:marketing@fomich.group">marketing@fomich.group</a></li>
-                                    <li><a href="mailto:marketing@fomich.group">marketing@fomich.group</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sendemailsect">
-                <div class="container">
-                    <h3>НАДІСЛАТИ E-MAIL</h3>
-                    <form action="#" class="sendemail-form">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <input type="text" placeholder="Ім’я *">
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="email" placeholder="Email *">
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="text" placeholder="Телефон *" class="telnum">
-                            </div>
-                            <div class="col-12">
-                                <input type="text" placeholder="Тема *">
-                            </div>
-                            <div class="col-12">
-                                <textarea placeholder="Повідомлення *"></textarea>
-                            </div>
-                        </div>
-                        <input type="submit" value="Надіслати" class="pulse-el">
-                    </form>
-                </div>
-            </div>
-
 
 
         </main>
@@ -213,11 +149,56 @@
     </div>
 
 
+    <!-- Modal -->
+    <div class="modal fade generalmodalw" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=" modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+                <div class="modal-body">
+                    <p class="title">Увага! Дуже важливе<br>
+                        повідомлення</p>
+                    <div class="descr">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="text-center"> <a href="#" class="modalbtn pulse-el">Зрозуміло</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade generalmodalw" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=" modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+                <div class="modal-body">
+                    <p class="title">Дякуємо! Ваше бронювання<br> пройшло успішно</p>
+                    <div class="descr">
+                        <p>
+                            Дякуємо! Ваше повідомлення успішно надіслано
+                        </p>
+                    </div>
+                    <div class="text-center"> <a href="#" class="modalbtn pulse-el">Зрозуміло</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
+    <style>
+        a {
+            color: #000;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    </style>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"

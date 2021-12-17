@@ -198,7 +198,74 @@
         line-height: 3.5rem;
     }
 
+    .errorcontent__textbox h1 {
+        font-size: 7rem;
+    }
 
+    .errorcontent__textbox .subtitle {
+        font-size: 1.4rem;
+    }
+
+    .errorcontent__textbox .subtitle {
+        margin-bottom: 30px;
+    }
+
+    .errorcontent__textbox h1 {
+        margin-bottom: 20px;
+    }
+
+    .welcomesmpic {
+        height: 320px;
+    }
+
+    .article-section {
+        h1 {
+            font-size: 2.6rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2.3rem;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            font-size: 1.7rem;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            font-size: 1.3rem;
+        }
+
+        h6 {
+            font-size: 1.1rem;
+        }
+
+    }
+
+    .generalmodalw .modal-dialog {
+        max-width: 700px;
+    }
+
+    .generalmodalw .modal-dialog .modal-body .title {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        margin-bottom: 20px;
+    }
+
+    .generalmodalw .modal-dialog .modal-body .descr {
+        margin-bottom: 30px;
+    }
+
+    .generalmodalw .modal-dialog .modal-body {
+        padding: 40px 45px 30px 65px;
+    }
 
 
 
@@ -815,6 +882,20 @@
         margin-bottom: 30px;
     }
 
+    .article-section {
+        padding-bottom: 70px;
+    }
+
+    .fscreensmall.weithoutdescr {
+        min-height: 340px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -993,11 +1074,48 @@
         line-height: 2.4rem;
     }
 
+    .errorcontent__textbox h1 {
+        font-size: 5rem;
+    }
 
+    .errorcontent__textbox .subtitle {
+        font-size: 1.2rem;
+    }
 
+    .article-section img {
+        margin-bottom: 30px;
+    }
 
+    .article-section {
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
 
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
 
+        h3 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            font-size: 1.2rem;
+        }
+
+        h6 {
+            font-size: 1rem;
+        }
+
+    }
 
 
 
@@ -1352,9 +1470,66 @@
         padding-bottom: 20px;
     }
 
+    .welcomesmpic {
+        height: 210px;
+    }
 
+    .article-section {
+        padding: 20px 0 65px;
+    }
 
+    .article-section img {
+        margin-bottom: 15px;
+    }
 
+    .article-section h1 {
+        font-size: 1.6em;
+    }
+
+    .article-section h2 {
+        font-size: 1.5em;
+    }
+
+    .article-section h3 {
+        font-size: 1.4em;
+    }
+
+    .article-section h4 {
+        font-size: 1.3em;
+    }
+
+    .article-section h5 {
+        font-size: 1.1em;
+    }
+
+    .article-section .bookingbtn {
+        margin-top: 20px;
+    }
+
+    .article-section {
+        padding-bottom: 50px;
+    }
+
+    .generalmodalw .modal-dialog .modal-body {
+        padding: 40px 25px 20px 25px;
+    }
+
+    .generalmodalw .modal-dialog .modal-body .title {
+        font-size: 1.4rem;
+        line-height: 1.85rem;
+    }
+
+    .generalmodalw button.btn-close {
+        width: 35px;
+        height: 35px;
+        right: 15px;
+        top: 15px;
+    }
+
+    .generalmodalw .modal-dialog .modal-body .title:after {
+        left: -25px;
+        width: 10px;
+    }
 
 
 
@@ -1393,9 +1568,13 @@
 
 
 @media(max-height:680px) and (min-width:768px) {
-    header.header .header__menu {
+    header.header .header__menu.show {
         display: block;
         text-align: center;
+
+    }
+
+    .header__menu.show {
         padding-top: 100px;
     }
 

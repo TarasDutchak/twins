@@ -1,0 +1,68 @@
+.generalmodalw {
+    .modal-dialog {
+        max-width: 882px;
+
+        .modal-body {
+            padding: 72px 65px 40px 65px;
+
+            .title {
+                margin-bottom: 50px;
+                font-weight: bold;
+                font-size: 2rem;
+                line-height: 2.4375rem;
+                color: #000000;
+                position: relative;
+                max-width: calc(100% - 40px);
+
+                &:after {
+                    content: '';
+                    display: inline-block;
+                    position: absolute;
+                    left: -65px;
+                    top: 0;
+                    width: 15px;
+                    height: 49px;
+                    background: #E1AD66;
+                    border-radius: 0px 5px 5px 0px;
+                }
+            }
+
+            .descr {
+                font-size: 1rem;
+                line-height: 162%;
+                color: #000000;
+                font-family: 'Work Sans', sans-serif;
+                margin-bottom: 50px;
+
+                p {
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .modalbtn {
+                @include yellow-btn
+            }
+        }
+    }
+
+    button.btn-close {
+        outline: none;
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        background: url('../img/svg/close-modal.svg') no-repeat center / 100%;
+        opacity: 1;
+        position: absolute;
+        right: 21px;
+        top: 17px;
+        cursor: pointer;
+        z-index: 2;
+        transition: .3s;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
